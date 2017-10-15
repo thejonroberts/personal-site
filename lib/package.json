@@ -26,5 +26,8 @@
 	"bugs": {
 		"url": "https://github.com/thejonroberts/thejonroberts.com/issues"
 	},
-	"homepage": "https://github.com/thejonroberts/thejonroberts.com#readme"
+	"homepage": "https://github.com/thejonroberts/thejonroberts.com#readme",
+	"dependencies": {
+		"materialize-css": "^0.100.2"
+	}
 }
