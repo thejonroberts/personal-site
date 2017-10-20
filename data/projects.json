@@ -1,0 +1,12 @@
+{
+	"projects": [
+		{
+			"name": "SpinTracker",
+			"site_url": "#",
+			"github_url": "https://github.com/thejonroberts/SpinTracker-Capstone",
+			"screenshot_url": "images/screencap-example.png",
+			"description":
+				"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit quisquam aspernatur."
+		}
+	]
+}
