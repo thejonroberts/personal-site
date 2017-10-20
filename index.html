@@ -5,25 +5,176 @@
   <title>Jon Roberts: Junior Software Developer</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="lib/node_modules/materialize-css/dist/css/materialize.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 
-<body id="top">
-  <nav id="navBar">
+<body>
 
-  </nav>
-  <div id="contentWrapper">
-
+  <div class="navbar-fixed">
+    <nav id="nav-bar">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo right">Jon Roberts</a>
+        <ul id="nav-mobile" class="left hide-on-small-and-down">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#tools">Tools</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </div>
-  <div id="footer" class="ilike-blue">
 
-  </div>
+  <main>
+
+    <section id="about">
+      <header>
+        <div class="container">
+          <h2>About me</h2>
+        </div>
+      </header>
+      <div class="container">
+        <p class="section-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis
+          fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit
+          quisquam aspernatur.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <header>
+        <div class="container">
+          <h2>Projects</h2>
+        </div>
+      </header>
+      <div class="container">
+        <p class="section-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis
+          fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit
+          quisquam aspernatur.</p>
+        <div class="row">
+
+          <div class="col s12 m6">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="images/screencap-example.png">
+                <span class="card-title">Card Title</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light">
+                  <i class="material-icons">launch</i>
+                </a>
+              </div>
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus
+                  facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis
+                  alias reprehenderit quisquam aspernatur.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="images/screencap-example.png">
+                <span class="card-title">Card Title</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light">
+                  <i class="material-icons">launch</i>
+                </a>
+              </div>
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus
+                  facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis
+                  alias reprehenderit quisquam aspernatur.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="images/screencap-example.png">
+                <span class="card-title">Card Title</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light">
+                  <i class="material-icons">launch</i>
+                </a>
+              </div>
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus
+                  facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis
+                  alias reprehenderit quisquam aspernatur.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="tools">
+      <header>
+        <div class="container">
+          <h2>Tools</h2>
+        </div>
+      </header>
+      <div class="container">
+        <p class="section-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis
+          fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit
+          quisquam aspernatur.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <header>
+        <div class="container">
+          <h2>Contact</h2>
+        </div>
+      </header>
+      <div class="container">
+        <p class="section-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis
+          fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit
+          quisquam aspernatur.</p>
+      </div>
+    </section>
+
+    </div>
+  </main>
+
+  <footer class="page-footer">
+
+    <div class="container">
+      <div class="row">
+        <div class="col s6">
+          <h5 class="white-text">
+            <a class="grey-text text-lighten-3" href="#">Top</a>
+          </h5>
+        </div>
+        <div class="col s6">
+          <div class="footer-copyright">
+            <a href="https://opensource.org/licenses/MIT" target="_blank" class="valign-wrapper">
+              <span class='right-align'>
+                &copy; 2017 Jon Roberts (MIT License)
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="lib/node_modules/jquery/dist/jquery.js"></script>
   <!-- <script src="lib/node_modules/hammerjs/hammer.js"></script> -->
   <script src="lib/node_modules/materialize-css/dist/js/materialize.js"></script>
   <script src="dist/app.js"></script>
 </body>
+
+<!-- Copyright 2017 Jon Roberts
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
 
 </html>

@@ -1,4 +1,68 @@
 @import 'variables'
 
+@font-face
+	font-family: 'GreycliffCF'
+	src: url('../fonts/GreycliffCF-Regular.woff')
+	// src: url('WebFont.eot?#iefix') format('embedded-opentype')
+	// 	url('WebFont.woff') format('woff'),
+	// 	url('WebFont.ttf') format('truetype'),
+	// 	url('WebFont.svg#webfont') format('svg')
+
 body
+	background-color: $light
+	background-image: url('/images/pattern/geo-500px.png')
+	color: $black
+	font: 100% $font-stack
+
+nav
 	background-color: $secondary
+	// background-image: url('/images/pattern/geo-500px.png')
+
+section
+	header
+		background-color: $primary
+		background-image: url('/images/pattern/05-dark-500.png')
+		// (match materialize card box shadow)
+		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2)
+		color: $light
+		padding: 0.2rem
+		width: 100%
+
+	.section-description
+		background-color: $white
+		// (match materialize card box shadow)
+		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2)
+		padding: 2em
+
+// footer
+// 	background-image: url('/images/pattern/geo-500px.png')
+
+.page-footer
+	background-color: $secondary
+
+	.row
+		margin-bottom: 0
+
+.btn-floating
+	background-color: $accent
+
+.footer-copyright
+	a
+		color: $light
+		display: inline-flex
+		justify-content: flex-end
+		width: 100%
+
+		&:hover
+			color: $primary
+
+		span
+			flex-grow: 1
+
+	img
+		max-width: 20px
+
+// .parallax
+// 	background-image: url('../images/pattern/01.png')
+// 	min-height: 200px
+
