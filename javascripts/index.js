@@ -1,6 +1,5 @@
 'use strict';
 
-// const $ = require('jquery');
 require('handlebars');
 
 const { projects } = require('../data/projects');
@@ -12,9 +11,9 @@ $('#projectList').append(projectCards);
 
 // materialize initialization
 $(document).ready(function() {
-	$('.button-collapse').sideNav();
-});
-
-$('.side-nav').on('click', () => {
-	$('.button-collapse').sideNav('hide');
+	$('.button-collapse').sideNav({
+		menuWidth: 200,
+		closeOnClick: true,
+		draggable: true
+	});
 });
