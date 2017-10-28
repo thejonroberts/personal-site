@@ -1,7 +1,19 @@
 'use strict';
 
-// require('../lib/node_modules/jquery/dist/jquery.js');
-// require('../lib/node_modules/hammerjs/hammer.js');
-// require('../lib/node_modules/materialize-css/dist/js/materialize.js');
+require('handlebars');
 
-console.log('connected');
+const { projects } = require('../data/projects');
+let projectTemplate = require('../templates/project.hbs');
+
+let projectCards = projectTemplate({ projects });
+
+$('#projectList').append(projectCards);
+
+// materialize initialization
+$(document).ready(function() {
+	$('.button-collapse').sideNav({
+		menuWidth: 200,
+		closeOnClick: true,
+		draggable: true
+	});
+});

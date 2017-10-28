@@ -1,0 +1,17 @@
+{{#each projects}}
+<div class="col s12 m6">
+  <div class="card hoverable">
+    <div class="card-image">
+      <img src="{{screenshot_url}}">
+      <span class="card-title">{{name}}</span>
+    </div>
+    <div class="card-content">
+      <p>{{description}}</p>
+    </div>
+    <div class="card-action">
+      <a href="{{site_url}}" class="btn-flat" target="_blank">Site</a>
+      <a href="{{github_url}}" class="btn-flat" target="_blank">Github</a>
+    </div>
+  </div>
+</div>
+{{/each}}
