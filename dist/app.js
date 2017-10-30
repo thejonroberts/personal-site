@@ -2,10 +2,10 @@
 module.exports={
 	"projects": [
 		{
-			"name": "SpinTracker",
-			"site_url": "#",
-			"github_url": "https://github.com/thejonroberts/SpinTracker-Capstone",
-			"screenshot_url": "images/screencap-example.png",
+			"name": "NSS Cohort 20 Site",
+			"site_url": "http://nashss.com/cohort20",
+			"github_url": "https://github.com/nss-day-cohort-20/Cohort20Site",
+			"screenshot_url": "images/screenshots/c20-site.png",
 			"description":
 				"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit quisquam aspernatur."
 		},
@@ -48,16 +48,8 @@ module.exports={
 			"image": "nodejs"
 		},
 		{
-			"name": "Angular.js",
+			"name": "AngularJS",
 			"image": "angularjs"
-		},
-		{
-			"name": "jQuery",
-			"image": "jquery"
-		},
-		{
-			"name": "Git",
-			"image": "git"
 		},
 		{
 			"name": "Github",
@@ -76,24 +68,8 @@ module.exports={
 			"image": "html5"
 		},
 		{
-			"name": "CSS3",
-			"image": "css3"
-		},
-		{
-			"name": "Sass",
-			"image": "sass"
-		},
-		{
-			"name": "Bootstrap",
-			"image": "bootstrap"
-		},
-		{
 			"name": "Browserify",
 			"image": "browserify"
-		},
-		{
-			"name": "Express",
-			"image": "express"
 		},
 		{
 			"name": "Chai",
@@ -111,9 +87,33 @@ module.exports={
 			"name": "Sequelize",
 			"image": "sequelize"
 		},
-
+		{
+			"name": "Git",
+			"image": "git"
+		},
+		{
+			"name": "CSS3",
+			"image": "css3"
+		},
+		{
+			"name": "jQuery",
+			"image": "jquery"
+		},
+		{
+			"name": "Sass",
+			"image": "sass"
+		},
+		{
+			"name": "Bootstrap",
+			"image": "bootstrap"
+		},
+		{
+			"name": "Express",
+			"image": "express"
+		}
 	]
 }
+
 },{}],3:[function(require,module,exports){
 'use strict';
 
@@ -8537,9 +8537,9 @@ var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "	<div class=\"col l3\">\n		<div class=\"card\">\n			<div class=\"card-image\">\n				<img src=\"images/logos/"
+  return "	<div class=\"col s6 m4 l3\">\n		<div class=\"card\">\n			<div class=\"card-image\">\n				<div class=\"container\">\n					<img src=\"images/logos/"
     + alias4(((helper = (helper = helpers.image || (depth0 != null ? depth0.image : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"image","hash":{},"data":data}) : helper)))
-    + ".png\">\n			</div>\n			<div class=\"card-content\">\n				<p>"
+    + ".png\">\n				</div>\n			</div>\n			<div class=\"card-content\">\n				<p class=\"center-align\">"
     + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
     + "</p>\n			</div>\n		</div>\n	</div>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {

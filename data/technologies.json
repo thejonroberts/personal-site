@@ -9,16 +9,8 @@
 			"image": "nodejs"
 		},
 		{
-			"name": "Angular.js",
+			"name": "AngularJS",
 			"image": "angularjs"
-		},
-		{
-			"name": "jQuery",
-			"image": "jquery"
-		},
-		{
-			"name": "Git",
-			"image": "git"
 		},
 		{
 			"name": "Github",
@@ -37,24 +29,8 @@
 			"image": "html5"
 		},
 		{
-			"name": "CSS3",
-			"image": "css3"
-		},
-		{
-			"name": "Sass",
-			"image": "sass"
-		},
-		{
-			"name": "Bootstrap",
-			"image": "bootstrap"
-		},
-		{
 			"name": "Browserify",
 			"image": "browserify"
-		},
-		{
-			"name": "Express",
-			"image": "express"
 		},
 		{
 			"name": "Chai",
@@ -72,6 +48,29 @@
 			"name": "Sequelize",
 			"image": "sequelize"
 		},
-
+		{
+			"name": "Git",
+			"image": "git"
+		},
+		{
+			"name": "CSS3",
+			"image": "css3"
+		},
+		{
+			"name": "jQuery",
+			"image": "jquery"
+		},
+		{
+			"name": "Sass",
+			"image": "sass"
+		},
+		{
+			"name": "Bootstrap",
+			"image": "bootstrap"
+		},
+		{
+			"name": "Express",
+			"image": "express"
+		}
 	]
 }
