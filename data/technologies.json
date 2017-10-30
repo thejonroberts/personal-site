@@ -1,0 +1,76 @@
+{
+	"technologies": [
+		{
+			"name": "Javascript",
+			"image": "javascript"
+		},
+		{
+			"name": "Node.js",
+			"image": "nodejs"
+		},
+		{
+			"name": "AngularJS",
+			"image": "angularjs"
+		},
+		{
+			"name": "Github",
+			"image": "github"
+		},
+		{
+			"name": "Grunt",
+			"image": "grunt"
+		},
+		{
+			"name": "PostgreSQL",
+			"image": "postgresql"
+		},
+		{
+			"name": "HTML5",
+			"image": "html5"
+		},
+		{
+			"name": "Browserify",
+			"image": "browserify"
+		},
+		{
+			"name": "Chai",
+			"image": "chai"
+		},
+		{
+			"name": "Handlebars",
+			"image": "handlebars"
+		},
+		{
+			"name": "Pug",
+			"image": "pug"
+		},
+		{
+			"name": "Sequelize",
+			"image": "sequelize"
+		},
+		{
+			"name": "Git",
+			"image": "git"
+		},
+		{
+			"name": "CSS3",
+			"image": "css3"
+		},
+		{
+			"name": "jQuery",
+			"image": "jquery"
+		},
+		{
+			"name": "Sass",
+			"image": "sass"
+		},
+		{
+			"name": "Bootstrap",
+			"image": "bootstrap"
+		},
+		{
+			"name": "Express",
+			"image": "express"
+		}
+	]
+}

@@ -1,10 +1,10 @@
 {
 	"projects": [
 		{
-			"name": "SpinTracker",
-			"site_url": "#",
-			"github_url": "https://github.com/thejonroberts/SpinTracker-Capstone",
-			"screenshot_url": "images/screencap-example.png",
+			"name": "NSS Cohort 20 Site",
+			"site_url": "http://nashss.com/cohort20",
+			"github_url": "https://github.com/nss-day-cohort-20/Cohort20Site",
+			"screenshot_url": "images/screenshots/c20-site.png",
 			"description":
 				"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit quisquam aspernatur."
 		},
