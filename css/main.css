@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "GreycliffCF";
+  src: url("../fonts/GreycliffCF-Regular.woff"); }
+html {
+  font-size: 16px; }
+
+body {
+  background-color: #f3f4f6;
+  background-image: url("/images/pattern/geo-500px.png");
+  color: #1f242a;
+  font: 100% GreycliffCF, Helvetica, sans-serif; }
+
+nav {
+  background-color: #197bbd;
+  background-image: url("/images/pattern/05-dark-500.png");
+  color: #f3f4f6; }
+  nav a:link, nav a:visited {
+    color: #f3f4f6; }
+  nav a:hover {
+    color: #ec4e20; }
+  nav a:focus, nav a:active {
+    color: #1f242a; }
+
+section::before {
+  content: " ";
+  display: block;
+  height: 60px;
+  margin-top: -60px;
+  visibility: hidden; }
+section header {
+  background-color: #353531;
+  color: #f3f4f6;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  padding: 0.2em;
+  width: 100%; }
+section .section-description {
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  padding: 2em; }
+
+.page-footer {
+  background-color: #353531; }
+  .page-footer .row {
+    margin-bottom: 0; }
+
+.footer-copyright a {
+  color: #f3f4f6;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%; }
+  .footer-copyright a:hover {
+    color: #197bbd; }
+  .footer-copyright a span {
+    flex-grow: 1; }
+
+a:link, a:visited {
+  color: #197bbd; }
+a:hover {
+  color: #f3f4f6; }
+a:focus, a:active {
+  color: #ec4e20; }
+
+/*# sourceMappingURL=main.css.map */
