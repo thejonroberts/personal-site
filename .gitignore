@@ -48,7 +48,6 @@ Thumbs.db
 /lib/.sass-cache
 /.sass-cache/
 
-/css/***
-/dist/***
+/**/main.css.map
 
 index.nginx-debian.html
