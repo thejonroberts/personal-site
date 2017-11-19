@@ -10,25 +10,25 @@
 		},
 		{
 			"name": "SpinTracker",
-			"site_url": "#",
+			"site_url": "null",
 			"github_url": "https://github.com/thejonroberts/SpinTracker-Capstone",
-			"screenshot_url": "images/screencap-example.png",
+			"screenshot_url": "images/screenshots/SpinTracker.png",
 			"description":
 				"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit quisquam aspernatur."
 		},
 		{
-			"name": "SpinTracker",
-			"site_url": "#",
-			"github_url": "https://github.com/thejonroberts/SpinTracker-Capstone",
-			"screenshot_url": "images/screencap-example.png",
+			"name": "BuddyStream",
+			"site_url": "null",
+			"github_url": "https://github.com/thejonroberts/BuddyStream",
+			"screenshot_url": "images/screenshots/BuddyStream.png",
 			"description":
 				"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit quisquam aspernatur."
 		},
 		{
-			"name": "SpinTracker",
-			"site_url": "#",
-			"github_url": "https://github.com/thejonroberts/SpinTracker-Capstone",
-			"screenshot_url": "images/screencap-example.png",
+			"name": "SnapShop",
+			"site_url": "null",
+			"github_url": "https://github.com/DillGromble/wicTN",
+			"screenshot_url": "images/screenshots/SnapShop.png",
 			"description":
 				"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit quisquam aspernatur."
 		}

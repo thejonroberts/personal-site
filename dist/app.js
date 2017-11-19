@@ -11,25 +11,25 @@ module.exports={
 		},
 		{
 			"name": "SpinTracker",
-			"site_url": "#",
+			"site_url": "null",
 			"github_url": "https://github.com/thejonroberts/SpinTracker-Capstone",
-			"screenshot_url": "images/screencap-example.png",
+			"screenshot_url": "images/screenshots/SpinTracker.png",
 			"description":
 				"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit quisquam aspernatur."
 		},
 		{
-			"name": "SpinTracker",
-			"site_url": "#",
-			"github_url": "https://github.com/thejonroberts/SpinTracker-Capstone",
-			"screenshot_url": "images/screencap-example.png",
+			"name": "BuddyStream",
+			"site_url": "null",
+			"github_url": "https://github.com/thejonroberts/BuddyStream",
+			"screenshot_url": "images/screenshots/BuddyStream.png",
 			"description":
 				"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit quisquam aspernatur."
 		},
 		{
-			"name": "SpinTracker",
-			"site_url": "#",
-			"github_url": "https://github.com/thejonroberts/SpinTracker-Capstone",
-			"screenshot_url": "images/screencap-example.png",
+			"name": "SnapShop",
+			"site_url": "null",
+			"github_url": "https://github.com/DillGromble/wicTN",
+			"screenshot_url": "images/screenshots/SnapShop.png",
 			"description":
 				"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit quisquam aspernatur."
 		}
@@ -60,10 +60,6 @@ module.exports={
 			"image": "grunt"
 		},
 		{
-			"name": "PostgreSQL",
-			"image": "postgresql"
-		},
-		{
 			"name": "HTML5",
 			"image": "html5"
 		},
@@ -88,6 +84,10 @@ module.exports={
 			"image": "sequelize"
 		},
 		{
+			"name": "PostgreSQL",
+			"image": "postgresql"
+		},
+		{
 			"name": "Git",
 			"image": "git"
 		},
@@ -95,10 +95,7 @@ module.exports={
 			"name": "CSS3",
 			"image": "css3"
 		},
-		{
-			"name": "jQuery",
-			"image": "jquery"
-		},
+
 		{
 			"name": "Sass",
 			"image": "sass"
@@ -110,6 +107,10 @@ module.exports={
 		{
 			"name": "Express",
 			"image": "express"
+		},
+		{
+			"name": "jQuery",
+			"image": "jquery"
 		}
 	]
 }
@@ -8514,7 +8515,7 @@ var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "<div class=\"col s12 m6\">\n  <div class=\"card hoverable\">\n    <div class=\"card-image\">\n      <img src=\""
+  return "<div class=\"col s12 m6\">\n  <div class=\"card medium hoverable\">\n    <div class=\"card-image\">\n      <img src=\""
     + alias4(((helper = (helper = helpers.screenshot_url || (depth0 != null ? depth0.screenshot_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"screenshot_url","hash":{},"data":data}) : helper)))
     + "\">\n      <span class=\"card-title\">"
     + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
@@ -8537,9 +8538,9 @@ var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "	<div class=\"col s6 m4 l3\">\n		<div class=\"card\">\n			<div class=\"card-image\">\n				<div class=\"container\">\n					<img src=\"images/logos/"
+  return "	<div class=\"col s6 m4 l3\">\n		<div class=\"card tech-card\">\n			<div class=\"card-image\">\n				<img class=\"responsive-img\" src=\"images/logos/"
     + alias4(((helper = (helper = helpers.image || (depth0 != null ? depth0.image : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"image","hash":{},"data":data}) : helper)))
-    + ".png\">\n				</div>\n			</div>\n			<div class=\"card-content\">\n				<p class=\"center-align\">"
+    + ".png\">\n			</div>\n			<div class=\"card-content\">\n				<p class=\"center-align\">"
     + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
     + "</p>\n			</div>\n		</div>\n	</div>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
