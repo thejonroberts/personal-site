@@ -11,7 +11,7 @@ module.exports={
 		},
 		{
 			"name": "SpinTracker",
-			"site_url": "null",
+			"site_url": null,
 			"github_url": "https://github.com/thejonroberts/SpinTracker-Capstone",
 			"screenshot_url": "images/screenshots/SpinTracker.png",
 			"description":
@@ -19,7 +19,7 @@ module.exports={
 		},
 		{
 			"name": "BuddyStream",
-			"site_url": "null",
+			"site_url": null,
 			"github_url": "https://github.com/thejonroberts/BuddyStream",
 			"screenshot_url": "images/screenshots/BuddyStream.png",
 			"description":
@@ -27,7 +27,7 @@ module.exports={
 		},
 		{
 			"name": "SnapShop",
-			"site_url": "null",
+			"site_url": null,
 			"github_url": "https://github.com/DillGromble/wicTN",
 			"screenshot_url": "images/screenshots/SnapShop.png",
 			"description":
@@ -8513,19 +8513,25 @@ process.umask = function() { return 0; };
 // hbsfy compiled Handlebars template
 var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template({"1":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "<div class=\"col s12 m6\">\n  <div class=\"card medium hoverable\">\n    <div class=\"card-image\">\n      <img src=\""
+  return "<div class=\"col s12 m6\">\n  <div class=\"card large hoverable\">\n    <div class=\"card-image\">\n      <img src=\""
     + alias4(((helper = (helper = helpers.screenshot_url || (depth0 != null ? depth0.screenshot_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"screenshot_url","hash":{},"data":data}) : helper)))
-    + "\">\n      <span class=\"card-title\">"
+    + "\">\n    </div>\n    <div class=\"card-content\">\n      <span class=\"card-title\">"
     + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
-    + "</span>\n    </div>\n    <div class=\"card-content\">\n      <p>"
+    + "</span>\n      <p>"
     + alias4(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data}) : helper)))
-    + "</p>\n    </div>\n    <div class=\"card-action\">\n      <a href=\""
-    + alias4(((helper = (helper = helpers.site_url || (depth0 != null ? depth0.site_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"site_url","hash":{},"data":data}) : helper)))
-    + "\" class=\"btn-flat\" target=\"_blank\">Site</a>\n      <a href=\""
+    + "</p>\n    </div>\n    <div class=\"card-action\">\n"
+    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.site_url : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "      <a href=\""
     + alias4(((helper = (helper = helpers.github_url || (depth0 != null ? depth0.github_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"github_url","hash":{},"data":data}) : helper)))
     + "\" class=\"btn-flat\" target=\"_blank\">Github</a>\n    </div>\n  </div>\n</div>\n";
+},"2":function(container,depth0,helpers,partials,data) {
+    var helper;
+
+  return "      <a href=\""
+    + container.escapeExpression(((helper = (helper = helpers.site_url || (depth0 != null ? depth0.site_url : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"site_url","hash":{},"data":data}) : helper)))
+    + "\" class=\"btn-flat\" target=\"_blank\">Site</a>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 

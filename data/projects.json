@@ -10,7 +10,7 @@
 		},
 		{
 			"name": "SpinTracker",
-			"site_url": "null",
+			"site_url": null,
 			"github_url": "https://github.com/thejonroberts/SpinTracker-Capstone",
 			"screenshot_url": "images/screenshots/SpinTracker.png",
 			"description":
@@ -18,7 +18,7 @@
 		},
 		{
 			"name": "BuddyStream",
-			"site_url": "null",
+			"site_url": null,
 			"github_url": "https://github.com/thejonroberts/BuddyStream",
 			"screenshot_url": "images/screenshots/BuddyStream.png",
 			"description":
@@ -26,7 +26,7 @@
 		},
 		{
 			"name": "SnapShop",
-			"site_url": "null",
+			"site_url": null,
 			"github_url": "https://github.com/DillGromble/wicTN",
 			"screenshot_url": "images/screenshots/SnapShop.png",
 			"description":

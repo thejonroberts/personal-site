@@ -1,15 +1,17 @@
- {{#each projects}}
+{{#each projects}}
 <div class="col s12 m6">
-  <div class="card medium hoverable">
+  <div class="card large hoverable">
     <div class="card-image">
       <img src="{{screenshot_url}}">
-      <span class="card-title">{{name}}</span>
     </div>
     <div class="card-content">
+      <span class="card-title">{{name}}</span>
       <p>{{description}}</p>
     </div>
     <div class="card-action">
+      {{#if site_url}}
       <a href="{{site_url}}" class="btn-flat" target="_blank">Site</a>
+      {{/if}}
       <a href="{{github_url}}" class="btn-flat" target="_blank">Github</a>
     </div>
   </div>
