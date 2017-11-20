@@ -1,11 +1,18 @@
 {{#each projects}}
 <div class="col s12 m6">
-  <div class="card large hoverable">
+  <div class="card sticky-action medium hoverable">
     <div class="card-image">
-      <img src="{{screenshot_url}}">
+      <img class="activator" src="{{screenshot_url}}">
     </div>
     <div class="card-content">
-      <span class="card-title">{{name}}</span>
+      <span class="card-title activator">{{name}}
+        <i class="material-icons right">more_vert</i>
+      </span>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title activator">{{name}}
+        <i class="material-icons right">close</i>
+      </span>
       <p>{{description}}</p>
     </div>
     <div class="card-action">
