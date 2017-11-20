@@ -21,10 +21,6 @@
 			"image": "grunt"
 		},
 		{
-			"name": "PostgreSQL",
-			"image": "postgresql"
-		},
-		{
 			"name": "HTML5",
 			"image": "html5"
 		},
@@ -49,6 +45,10 @@
 			"image": "sequelize"
 		},
 		{
+			"name": "PostgreSQL",
+			"image": "postgresql"
+		},
+		{
 			"name": "Git",
 			"image": "git"
 		},
@@ -56,10 +56,7 @@
 			"name": "CSS3",
 			"image": "css3"
 		},
-		{
-			"name": "jQuery",
-			"image": "jquery"
-		},
+
 		{
 			"name": "Sass",
 			"image": "sass"
@@ -71,6 +68,10 @@
 		{
 			"name": "Express",
 			"image": "express"
+		},
+		{
+			"name": "jQuery",
+			"image": "jquery"
 		}
 	]
 }

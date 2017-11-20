@@ -7,31 +7,31 @@ module.exports={
 			"github_url": "https://github.com/nss-day-cohort-20/Cohort20Site",
 			"screenshot_url": "images/screenshots/c20-site.png",
 			"description":
-				"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit quisquam aspernatur."
+				"This is the website for our Nashville Software School cohort. It was built using Bootstrap 4, Grunt, and Handlebars.  I was team lead on the project."
 		},
 		{
 			"name": "SpinTracker",
-			"site_url": "#",
+			"site_url": null,
 			"github_url": "https://github.com/thejonroberts/SpinTracker-Capstone",
-			"screenshot_url": "images/screencap-example.png",
+			"screenshot_url": "images/screenshots/SpinTracker.png",
 			"description":
-				"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit quisquam aspernatur."
+				"This is a news aggregation app focused on tracking narratives accross outlets with different biases/perspectives. It is built in AngularJS and Bootstrap, using data stored in Firebase. The build process also included Grunt for the Sass styling. It utilizes a simple Node webscraper, using request and cheerio to save article information from RSS feeds to the Firebase database. SpinTracker was my capstone project for the front-end portion on the Full Stack Web Development course."
 		},
 		{
-			"name": "SpinTracker",
-			"site_url": "#",
-			"github_url": "https://github.com/thejonroberts/SpinTracker-Capstone",
-			"screenshot_url": "images/screencap-example.png",
+			"name": "BuddyStream",
+			"site_url": null,
+			"github_url": "https://github.com/thejonroberts/BuddyStream",
+			"screenshot_url": "images/screenshots/BuddyStream.png",
 			"description":
-				"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit quisquam aspernatur."
+				"A chat app to watch streams together. The app uses WebRTC protocols to set up a peer-to-peer webcam chat. Both local and remote video streams can then be processed/filtered by javascript and rendered on a canvas overlay (in the style of Mystery Science Theater 3000). The backend is a Node server using Sequelize to interact with PostgreSQL data and serves it up via express. The express server is also handling the signaling for the WebRTC protocols via a web socket connection."
 		},
 		{
-			"name": "SpinTracker",
-			"site_url": "#",
-			"github_url": "https://github.com/thejonroberts/SpinTracker-Capstone",
-			"screenshot_url": "images/screencap-example.png",
+			"name": "SnapShop",
+			"site_url": null,
+			"github_url": "https://github.com/DillGromble/wicTN",
+			"screenshot_url": "images/screenshots/SnapShop.png",
 			"description":
-				"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae corrupti laudantium necessitatibus facilis fugiat, ratione, dignissimos sunt in voluptates expedita repellendus omnis nulla ipsam debitis alias reprehenderit quisquam aspernatur."
+				"A mobile first app for finding places that accept WIC, SNAP and EBT in the state of Tennessee. The app is built in React, and adds user generated info on payments to Google Maps API info, which is then stored in Firebase."
 		}
 	]
 }
@@ -60,10 +60,6 @@ module.exports={
 			"image": "grunt"
 		},
 		{
-			"name": "PostgreSQL",
-			"image": "postgresql"
-		},
-		{
 			"name": "HTML5",
 			"image": "html5"
 		},
@@ -88,6 +84,10 @@ module.exports={
 			"image": "sequelize"
 		},
 		{
+			"name": "PostgreSQL",
+			"image": "postgresql"
+		},
+		{
 			"name": "Git",
 			"image": "git"
 		},
@@ -95,10 +95,7 @@ module.exports={
 			"name": "CSS3",
 			"image": "css3"
 		},
-		{
-			"name": "jQuery",
-			"image": "jquery"
-		},
+
 		{
 			"name": "Sass",
 			"image": "sass"
@@ -110,6 +107,10 @@ module.exports={
 		{
 			"name": "Express",
 			"image": "express"
+		},
+		{
+			"name": "jQuery",
+			"image": "jquery"
 		}
 	]
 }
@@ -8512,19 +8513,27 @@ process.umask = function() { return 0; };
 // hbsfy compiled Handlebars template
 var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template({"1":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "<div class=\"col s12 m6\">\n  <div class=\"card hoverable\">\n    <div class=\"card-image\">\n      <img src=\""
+  return "<div class=\"col s12 m6\">\n  <div class=\"card sticky-action medium hoverable\">\n    <div class=\"card-image\">\n      <img class=\"activator\" src=\""
     + alias4(((helper = (helper = helpers.screenshot_url || (depth0 != null ? depth0.screenshot_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"screenshot_url","hash":{},"data":data}) : helper)))
-    + "\">\n      <span class=\"card-title\">"
+    + "\">\n    </div>\n    <div class=\"card-content\">\n      <span class=\"card-title activator\">"
     + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
-    + "</span>\n    </div>\n    <div class=\"card-content\">\n      <p>"
+    + "\n        <i class=\"material-icons right\">more_vert</i>\n      </span>\n    </div>\n    <div class=\"card-reveal\">\n      <span class=\"card-title activator\">"
+    + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
+    + "\n        <i class=\"material-icons right\">close</i>\n      </span>\n      <p>"
     + alias4(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data}) : helper)))
-    + "</p>\n    </div>\n    <div class=\"card-action\">\n      <a href=\""
-    + alias4(((helper = (helper = helpers.site_url || (depth0 != null ? depth0.site_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"site_url","hash":{},"data":data}) : helper)))
-    + "\" class=\"btn-flat\" target=\"_blank\">Site</a>\n      <a href=\""
+    + "</p>\n    </div>\n    <div class=\"card-action\">\n"
+    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.site_url : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "      <a href=\""
     + alias4(((helper = (helper = helpers.github_url || (depth0 != null ? depth0.github_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"github_url","hash":{},"data":data}) : helper)))
     + "\" class=\"btn-flat\" target=\"_blank\">Github</a>\n    </div>\n  </div>\n</div>\n";
+},"2":function(container,depth0,helpers,partials,data) {
+    var helper;
+
+  return "      <a href=\""
+    + container.escapeExpression(((helper = (helper = helpers.site_url || (depth0 != null ? depth0.site_url : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"site_url","hash":{},"data":data}) : helper)))
+    + "\" class=\"btn-flat\" target=\"_blank\">Site</a>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
@@ -8537,9 +8546,9 @@ var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "	<div class=\"col s6 m4 l3\">\n		<div class=\"card\">\n			<div class=\"card-image\">\n				<div class=\"container\">\n					<img src=\"images/logos/"
+  return "	<div class=\"col s6 m4 l3\">\n		<div class=\"card tech-card\">\n			<div class=\"card-image\">\n				<img class=\"responsive-img\" src=\"images/logos/"
     + alias4(((helper = (helper = helpers.image || (depth0 != null ? depth0.image : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"image","hash":{},"data":data}) : helper)))
-    + ".png\">\n				</div>\n			</div>\n			<div class=\"card-content\">\n				<p class=\"center-align\">"
+    + ".png\">\n			</div>\n			<div class=\"card-content\">\n				<p class=\"center-align\">"
     + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
     + "</p>\n			</div>\n		</div>\n	</div>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
